@@ -1,0 +1,11 @@
+İlk Yirmi Karakter:
+CONCAT(SUBSTRING(M.alici, 1, 20), '...')
+
+Tarih - Saat sprintf ile...
+DATE_FORMAT(zaman, '%%d.%%m.%%Y - %%H:%%i')
+
+Tarih - Saat normal
+DATE_FORMAT(zaman, '%d.%m.%Y - %H:%i')
+
+Duyuru Yayın Aralığı
+baslama <= DATE_FORMAT(now(), '%%Y-%%m-%%d') AND bitis >= DATE_FORMAT(now(), '%%Y-%%m-%%d')

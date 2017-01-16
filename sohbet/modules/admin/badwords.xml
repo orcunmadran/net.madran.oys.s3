@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bad_words_list>
+	<word>somebadword1</word>
+	<word>somebadword2</word>
+	<word>somebadword3</word>
+	<word>somebadword4</word>
+	<word>somebadword5</word>
+	<word>somebadword6</word>
+	<word>somebadword7*</word>
+	<word>somebadword8</word>
+	<word>somebadword9</word>
+	<word>somebadword10</word>
+	<word>somebadword11</word>
+	<word>somebadword12</word>
+	<word>somebadword13</word>
+	<word>somebadword14</word>
+	<word>somebadword15</word>
+	<word>somebadword16</word>
+	<word>*somebadword17*</word>
+	<word>*somebadword18*</word>
+	<word>somebadword19</word>
+	<word>somebadword20</word>
+	<word>somebadword21</word>
+	<word>somebadword22</word>
+	<word>somebadword23</word>
+	<word>somebadword24</word>
+</bad_words_list>

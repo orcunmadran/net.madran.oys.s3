@@ -1,0 +1,2 @@
+#!/bin/sh
+java flashchat.com.socketServer.SimpleServer "http://elf/flashchat5/chat"

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<settings>
+	<server url="rtmp://localhost:1935/multiavm" />
+	<run mode="module" view="1"/>
+	<size width="100" height="100" />
+	<volume value="70" />
+	<cam state="on" />
+	<mic state="on" />
+	<messages>
+		<message id="1" value="[no users]" />
+		<message id="2" value="[select user]" />
+		<message id="3" value="[anonymous]" />
+	</messages>
+</settings>

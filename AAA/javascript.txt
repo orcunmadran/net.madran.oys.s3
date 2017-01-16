@@ -1,0 +1,64 @@
+:: Silme Onay ::
+onclick="return confirm('Mesaj kalıcı olarak silinecektir.')"
+
+:: Form Gönder Onay ::
+<script type="text/javascript">
+function formgonder(){
+	var onaymesaj = confirm("Form gönderilecektir!");
+	if(onaymesaj){
+		document.form1.submit()
+		}
+}
+</script>
+
+:: Şifre Üret ::
+function sifreuret(){
+  chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
+  pass = "";
+  for(x=0;x<8;x++)
+  {
+    i = Math.floor(Math.random() * 62);
+    pass += chars.charAt(i);
+  }
+  document.form1.sifre.value = pass;
+}
+
+:: Form Kontrol ::
+<script type="text/javascript">
+//Form Kontrol
+function formkontrol(){
+	if(document.form1.sifre.value == document.form1.sifre2.value){	
+		if(document.form1.eposta.value == document.form1.eposta2.value){
+			if( document.form1.kimlik.value == "" |
+				document.form1.sifre.value == "" |
+				document.form1.sifre2.value == "" |
+				document.form1.ad.value == "" |
+				document.form1.soyad.value == "" |
+				document.form1.eposta.value == "" |
+				document.form1.eposta2.value == "" |
+				document.form1.dogrulama.value == ""){
+				alert("Lütfen zorunlu alanları doldurunuz.");
+			}
+			else {document.form1.submit();}
+		}
+		else {alert("Girilen e-posta adresleri aynı olmalıdır.");}
+	}
+	else {alert("Girilen şifreler aynı olmalıdır.");}
+}
+</script>
+
+:: Radio buton kontrol ::
+
+<script type="text/javascript">
+function kontrol(){
+	dugme = -1
+	for(i=0; i<form1.s30.length; i++){
+		if(form1.s30[i].checked){
+			dugme = i;
+		}
+}
+if(dugme == -1){
+	alert("bos");
+}
+}
+</script>

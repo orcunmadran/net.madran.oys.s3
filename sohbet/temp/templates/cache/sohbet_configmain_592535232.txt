@@ -1,0 +1,1 @@
+1	paypal_admin_bussiness_email					admin@fc.com		Paypal Bussiness Email	Bussiness email of paypal			02	instance_value					50		Instance Amount	Cost of one Chat Instance			03	admin_currency_type					USD		Currency Type	Currency Type			0

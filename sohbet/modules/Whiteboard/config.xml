@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<settings>
+
+<size width="200" height="400" />
+<fcs  url="rtmp://www.yourdomain.com:1935/whiteboard/chat" />
+<framework url="http://www.yourdomain.com/chat/modules/whiteboard/framework/engine.php" queryTime="3000" />
+
+<strings>
+	<string id="1" value="(Username) would like to share a white board with you!"/>
+	<string id="2" value="Accept and overwrite my drawing area"/>
+	<string id="3" value="Accept, but first save my drawing as:"/>
+	<string id="4" value="Decline invitation"/>
+	<string id="5" value="Save As ..."/>
+	<string id="6" value="Send To User"/>
+	<string id="7" value="Share With User"/>
+	<string id="8" value="Save"/>
+	<string id="9" value="Clear"/>
+	<string id="10" value="Pencil Tool"/>
+	<string id="11" value="Shape Tool"/>
+	<string id="12" value="Choose Color"/>
+	<string id="13" value="Selection Tool"/>
+	<string id="14" value="Text Tool"/>
+	<string id="15" value="Cut"/>
+	<string id="16" value="Copy"/>
+	<string id="17" value="Paste"/>
+	<string id="18" value="Switch Layers"/>
+	<string id="20" value="no users"/>
+</strings>
+</settings>

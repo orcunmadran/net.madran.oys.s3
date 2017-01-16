@@ -1,0 +1,107 @@
+@charset "utf-8";
+.icyazi {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+.arabaslik {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+}
+.anabaslik {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #666666;
+}
+a:link {
+	color: #0000FF;
+	text-decoration: none;
+}
+a:visited {
+	color: #0000FF;
+	text-decoration: none;
+}
+a:hover {
+	color: #CC0000;
+	text-decoration: none;
+}
+a:active {
+	color: #CC0000;
+	text-decoration: none;
+}
+.tanitim {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.baglantilar {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+.metinkutusu {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	background-color: #FFFFFF;
+	border: 1px solid #C8C8C8;
+}
+.buton {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	background-color: #E5E5E5;
+	border: 1px solid #333333;
+	font-weight: bold;
+}
+.karsilama {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+.formuyari {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #CC0000;
+}
+.yildiz {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #CC0000;
+}
+.icyaziblok {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-align: justify;
+}
+.cizgi {
+	color: #C8C8C8;
+	height: 1px;
+}
+.adresdefteri {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	background-color: #FFFFFF;
+	border: 1px solid #C8C8C8;
+	width: 100%;
+}
+.avatar {
+	border: 1px solid #CCCCCC;
+}
+.panel {
+	background-color: #EBEBEB;
+	border: 1px solid #333333;
+}
+.buton_ince {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	background-color: #E5E5E5;
+	font-weight: normal;
+	border: none;
+}
